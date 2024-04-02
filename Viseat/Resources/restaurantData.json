@@ -2,7 +2,7 @@
     {
         "name": "RM Padang ABC",
         "cuisineType": ["Traditional"],
-        "priceRange": 2,
+        "priceRange": 1,
         "address": {
             "street": "Jl. ABC no. 10",
             "city": "Jakarta",
@@ -90,7 +90,7 @@
         },
         "isWishlist": false,
         "isHalal": true,
-        "phoneNumber": "0851152201289",
+        "phoneNumber": "08212929391",
         "mainImage": "warung_nasi_ibu_hanna",
         "ratings": 4.5,
         "images": [],
@@ -105,7 +105,7 @@
         },
         "menu": {
             "bestSeller": {
-                "name": "Nasi Liwet",
+                "name": "Paket Nasi Liwet",
                 "description": "Nasi Liwet dengan Ayam Goreng, Sambal, Lalapan",
                 "price": 20000
                 "image": "warung_nasi_ibu_hanna_best",
@@ -157,4 +157,120 @@
             }
         }
     },
+    {
+        "name": "Yakiya Japanese Restaurant",
+        "cuisineType": ["Japanese"],
+        "priceRange": 3,
+        "address": {
+            "street": "Jl. Boulevard Gading Serpong No. 29",
+            "city": "Tangerang",
+            "province": "Banten",
+            "kecamatan": "Kelapa Gading",
+            "kelurahan": "Gading Serpong"
+        }
+        "geolocation": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "isWishlist": false,
+        "isHalal": true,
+        "phoneNumber": "021-55558888",
+        "mainImage": "yakiya_japanese_restaurant",
+        "ratings": 4.8,
+        "images": [],
+        "opening_hours": {
+            "monday": "11:00 AM - 10:00 PM",
+            "tuesday": "11:00 AM - 10:00 PM",
+            "wednesday": "11:00 AM - 10:00 PM",
+            "thursday": "11:00 AM - 10:00 PM",
+            "friday": "11:00 AM - 11:00 PM",
+            "saturday": "10:00 AM - 11:00 PM",
+            "sunday": "10:00 AM - 10:00 PM"
+        },
+        "menu": {
+            "bestSeller": {
+                "name": "Salmon Teriyaki Don",
+                "description": "Grilled Salmon with Teriyaki Sauce on Rice",
+                "price": 85000
+                "image": "yakiya_salmon_teriyaki_don",
+            }
+            "categories": [
+                {
+                    "name": "Appetizers",
+                    "items": [
+                        {
+                            "name": "Edamame",
+                            "description": "Steamed Soybeans",
+                            "price": 25000
+                        },
+                        {
+                            "name": "Gyoza",
+                            "description": "Pan-fried Dumplings (Pork or Vegetable)",
+                            "price": 40000
+                        },
+                        {
+                            "name": "Takoyaki",
+                            "description": "Octopus Fritters",
+                            "price": 45000
+                        }
+                    ]
+                },
+                {
+                    "name": "Sushi & Sashimi",
+                    "items": [
+                        {
+                            "name": "Salmon Nigiri",
+                            "description": "Sliced Salmon on Sushi Rice",
+                            "price": 30000 (per piece)
+                        },
+                        {
+                            "name": "Tuna Sashimi",
+                            "description": "Sliced Raw Tuna",
+                            "price": 40000
+                        },
+                        {
+                            "name": "Sushi Platter",
+                            "description": "Assortment of Nigiri and Maki",
+                            "price": varies
+                        }
+                    ]
+                },
+                {
+                    "name": "Donburi (Rice Bowls)",
+                    "items": [
+                        {
+                            "name": "Gyudon",
+                            "description": "Beef Bowl with Sweet Onion",
+                            "price": 75000
+                        },
+                        {
+                            "name": "Katsu Don",
+                            "description": "Crispy Pork Cutlet on Rice with Egg",
+                            "price": 80000
+                        }
+                    ]
+                },
+                {
+                    "name": "Noodles",
+                    "items": [
+                        {
+                            "name": "Ramen",
+                            "description": "Japanese Noodle Soup with Various Toppings (e.g., Shoyu, Miso)",
+                            "price": 65000
+                        },
+                        {
+                            "name": "Yakisoba",
+                            "description": "Stir-fried Noodles with Vegetables and Meat",
+                            "price": 60000
+                        },
+                        {
+                            "name": "Udon",
+                            "description": "Thick Wheat Noodles in Broth",
+                            "price": 55000
+                        }
+                    ]
+                },
+            ]
+        }
+    }
 ]
