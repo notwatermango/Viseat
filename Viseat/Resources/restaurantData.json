@@ -3,6 +3,7 @@
         "id": 1001,
         "name": "RM Padang ABC",
         "cuisineType": ["Traditional", "Padang"],
+        "placeType": ["Restaurant"],
         "priceRange": 1,
         "address": {
             "street": "Jl. ABC no. 10",
@@ -80,6 +81,7 @@
         "id": 1002,
         "name": "Warung Nasi Ibu Hanna",
         "cuisineType": ["Traditional", "Sundanese"],
+        "placeType": ["Restaurant"],
         "priceRange": 1,
         "address": {
             "street": "Jl. Raya Serang KM 14",
@@ -167,6 +169,7 @@
         "id": 1003,
         "name": "Yakiya Japanese Restaurant",
         "cuisineType": ["Japanese"],
+        "placeType": ["Restaurant", "Bar"],
         "priceRange": 3,
         "address": {
             "street": "Jl. Boulevard Gading Serpong No. 29",
