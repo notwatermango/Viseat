@@ -2,7 +2,7 @@
     {
         "id": 1001,
         "name": "RM Padang ABC",
-        "cuisineType": ["Traditional", "Padang"],
+        "cuisineType": ["Indonesian", "Padang"],
         "placeType": ["Restaurant"],
         "priceRange": 1,
         "address": {
@@ -80,7 +80,7 @@
     {
         "id": 1002,
         "name": "Warung Nasi Ibu Hanna",
-        "cuisineType": ["Traditional", "Sundanese"],
+        "cuisineType": ["Indonesian", "Sundanese"],
         "placeType": ["Restaurant"],
         "priceRange": 1,
         "address": {
