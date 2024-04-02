@@ -2,21 +2,39 @@
     {
         "name": "RM Padang ABC",
         "cuisineType": ["Traditional"],
-        "priceRange": "mid-range",
+        "priceRange": 2,
+        "address": {
+            "street": "Jl. ABC no. 10",
+            "city": "Jakarta",
+            "province": "DKI Jakarta",
+            "kecamatan": "Tanah Abang",
+            "kelurahan": "Gondangdia"
+        }
         "geolocation": {
             "longitude": -116.166868,
             "latitude": 34.011286
         },
-        "isFavorite": false,
+        "isWishlist": false,
         "isHalal": true,
         "phoneNumber": "0851152201289",
         "mainImage": "rm_padang_abc",
-        "bestSellerImage": "rm_padang_abc_best",
+        "ratings": 4.2,
+        "images": [],
+        "opening_hours": {
+            "monday": "11:00 AM - 10:00 PM",
+            "tuesday": "11:00 AM - 10:00 PM",
+            "wednesday": "11:00 AM - 10:00 PM",
+            "thursday": "11:00 AM - 10:00 PM",
+            "friday": "11:00 AM - 11:00 PM",
+            "saturday": "10:00 AM - 11:00 PM",
+            "sunday": "10:00 AM - 10:00 PM"
+        },
         "menu": {
             "bestSeller": {
                 "name": "Paket Rendang",
                 "description": "Nasi Rendang Sayur Sambel",
                 "price": 20000
+                "image": "rm_padang_abc_best",
             }
             "categories": {
                 "name": "Paket Nasi",
@@ -54,16 +72,89 @@
                 ]
             }
         }
+    },
+    {
+        "name": "Warung Nasi Ibu Hanna",
+        "cuisineType": ["Traditional", "Sundanese"],
+        "priceRange": 1,
+        "address": {
+            "street": "Jl. Raya Serang KM 14",
+            "city": "Tangerang",
+            "province": "Banten",
+            "kecamatan": "Cibodas",
+            "kelurahan": "Cibodasari"
+        }
+        "geolocation": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "isWishlist": false,
+        "isHalal": true,
+        "phoneNumber": "0851152201289",
+        "mainImage": "warung_nasi_ibu_hanna",
+        "ratings": 4.5,
         "images": [],
         "opening_hours": {
-            "monday": "11:00 AM - 10:00 PM",
-            "tuesday": "11:00 AM - 10:00 PM",
-            "wednesday": "11:00 AM - 10:00 PM",
-            "thursday": "11:00 AM - 10:00 PM",
-            "friday": "11:00 AM - 11:00 PM",
-            "saturday": "10:00 AM - 11:00 PM",
-            "sunday": "10:00 AM - 10:00 PM"
+            "monday": "9:00 AM - 8:00 PM",
+            "tuesday": "9:00 AM - 8:00 PM",
+            "wednesday": "9:00 AM - 8:00 PM",
+            "thursday": "9:00 AM - 8:00 PM",
+            "friday": "9:00 AM - 8:00 PM",
+            "saturday": "9:00 AM - 8:00 PM",
+            "sunday": "9:00 AM - 8:00 PM"
         },
-        "ratings": 4.2,
-    }
+        "menu": {
+            "bestSeller": {
+                "name": "Nasi Liwet",
+                "description": "Nasi Liwet dengan Ayam Goreng, Sambal, Lalapan",
+                "price": 20000
+                "image": "warung_nasi_ibu_hanna_best",
+            }
+            "categories": {
+                "name": "Paket Nasi",
+                "items": [
+                    {
+                        "name": "Paket Nasi Ayam Bakar",
+                        "description": "Nasi Ayam Bakar Sayur Sambel",
+                        "price": 20000
+                    },
+                    {
+                        "name": "Paket Nasi Ayam Goreng",
+                        "description": "Nasi Ayam Goreng Sayur Sambel",
+                        "price": 19000,
+                    },
+                    {
+                        "name": "Paket Hemat Telur",
+                        "description": "Nasi Telur Sambel",
+                        "price": 13000,
+                    }
+                ]
+            },
+            {
+                "name": "Ala Carte",
+                "items": [
+                    {
+                        "name": "Nasi Liwet",
+                        "description": "Nasi Liwet",
+                        "price": 15000
+                    },
+                    {
+                        "name": "Ayam Goreng",
+                        "description": "Ayam Goreng dengan bumbu spesial",
+                        "price": 15000
+                    },
+                    {
+                        "name": "Sambal",
+                        "description": "Sambal pedas",
+                        "price": 5000
+                    },
+                    {
+                        "name": "Lalapan",
+                        "description": "Sayuran segar",
+                        "price": 5000
+                    }
+                ]
+            }
+        }
+    },
 ]
