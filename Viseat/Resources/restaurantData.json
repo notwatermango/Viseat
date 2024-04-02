@@ -1,7 +1,7 @@
 [
     {
         "name": "RM Padang ABC",
-        "cuisineType": ["Traditional"],
+        "cuisineType": ["Traditional", "Padang"],
         "priceRange": 1,
         "address": {
             "street": "Jl. ABC no. 10",
@@ -36,41 +36,43 @@
                 "price": 20000
                 "image": "rm_padang_abc_best",
             }
-            "categories": {
-                "name": "Paket Nasi",
-                "items": [
-                    {
-                        "name": "Paket Ayam Bakar",
-                        "description": "Nasi Ayam Bakar Sayur Sambel",
-                        "price": 20000
-                    },
-                    {
-                        "name": "Paket Ayam Goreng",
-                        "description": "Nasi Ayam Goreng Sayur Sambel",
-                        "price": 19000,
-                    },
-                    {
-                        "name": "Paket Hemat Telur",
-                        "description": "Nasi Telur Sambel",
-                        "price": 13000,
-                    }
-                ]
-            },
-            {
-                "name": "Ala Carte",
-                "items": [
-                    {
-                        "name": "Rendang",
-                        "description": "Daging Sapi dimasak Rendang",
-                        "price": 15000
-                    },
-                    {
-                        "name": "Ayam Goreng",
-                        "description": "Ayam Goreng dengan bumbu spesial",
-                        "price": 15000
-                    }
-                ]
-            }
+            "categories": [
+                {
+                    "name": "Paket Nasi",
+                    "items": [
+                        {
+                            "name": "Paket Ayam Bakar",
+                            "description": "Nasi Ayam Bakar Sayur Sambel",
+                            "price": 20000
+                        },
+                        {
+                            "name": "Paket Ayam Goreng",
+                            "description": "Nasi Ayam Goreng Sayur Sambel",
+                            "price": 19000,
+                        },
+                        {
+                            "name": "Paket Hemat Telur",
+                            "description": "Nasi Telur Sambel",
+                            "price": 13000,
+                        }
+                    ]
+                },
+                {
+                    "name": "Ala Carte",
+                    "items": [
+                        {
+                            "name": "Rendang",
+                            "description": "Daging Sapi dimasak Rendang",
+                            "price": 15000
+                        },
+                        {
+                            "name": "Ayam Goreng",
+                            "description": "Ayam Goreng dengan bumbu spesial",
+                            "price": 15000
+                        }
+                    ]
+                }
+            ]
         }
     },
     {
