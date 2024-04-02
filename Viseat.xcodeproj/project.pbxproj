@@ -61,7 +61,7 @@
 			children = (
 				FF5979162BBBC52E00ABD326 /* ViseatApp.swift */,
 				FF5979182BBBC52E00ABD326 /* ContentView.swift */,
-				FF59792C2BBBD05C00ABD326 /* RestaurantRow.swift */,
+				FF59792E2BBBD78600ABD326 /* Views */,
 				FF5979292BBBCE3C00ABD326 /* Model */,
 				FF5979262BBBC62C00ABD326 /* Resources */,
 				FF59791A2BBBC52E00ABD326 /* Assets.xcassets */,
@@ -93,6 +93,22 @@
 				FF59792A2BBBCE6800ABD326 /* Restaurant.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FF59792E2BBBD78600ABD326 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF59792F2BBBD79000ABD326 /* Restaurants */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF59792F2BBBD79000ABD326 /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				FF59792C2BBBD05C00ABD326 /* RestaurantRow.swift */,
+			);
+			path = Restaurants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

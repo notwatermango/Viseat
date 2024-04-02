@@ -114,51 +114,53 @@
                 "price": 20000,
                 "image": "warung_nasi_ibu_hanna_best"
             },
-            "categories": [{
-                "name": "Paket Nasi",
-                "items": [
-                    {
-                        "name": "Paket Nasi Ayam Bakar",
-                        "description": "Nasi Ayam Bakar Sayur Sambel",
-                        "price": 20000
-                    },
-                    {
-                        "name": "Paket Nasi Ayam Goreng",
-                        "description": "Nasi Ayam Goreng Sayur Sambel",
-                        "price": 19000
-                    },
-                    {
-                        "name": "Paket Hemat Telur",
-                        "description": "Nasi Telur Sambel",
-                        "price": 13000
-                    }
-                ]
-            },
-            {
-                "name": "Ala Carte",
-                "items": [
-                    {
-                        "name": "Nasi Liwet",
-                        "description": "Nasi Liwet",
-                        "price": 15000
-                    },
-                    {
-                        "name": "Ayam Goreng",
-                        "description": "Ayam Goreng dengan bumbu spesial",
-                        "price": 15000
-                    },
-                    {
-                        "name": "Sambal",
-                        "description": "Sambal pedas",
-                        "price": 5000
-                    },
-                    {
-                        "name": "Lalapan",
-                        "description": "Sayuran segar",
-                        "price": 5000
-                    }
-                ]
-            }]
+            "categories": [
+                {
+                    "name": "Paket Nasi",
+                    "items": [
+                        {
+                            "name": "Paket Nasi Ayam Bakar",
+                            "description": "Nasi Ayam Bakar Sayur Sambel",
+                            "price": 20000
+                        },
+                        {
+                            "name": "Paket Nasi Ayam Goreng",
+                            "description": "Nasi Ayam Goreng Sayur Sambel",
+                            "price": 19000
+                        },
+                        {
+                            "name": "Paket Hemat Telur",
+                            "description": "Nasi Telur Sambel",
+                            "price": 13000
+                        }
+                    ]
+                },
+                {
+                    "name": "Ala Carte",
+                    "items": [
+                        {
+                            "name": "Nasi Liwet",
+                            "description": "Nasi Liwet",
+                            "price": 15000
+                        },
+                        {
+                            "name": "Ayam Goreng",
+                            "description": "Ayam Goreng dengan bumbu spesial",
+                            "price": 15000
+                        },
+                        {
+                            "name": "Sambal",
+                            "description": "Sambal pedas",
+                            "price": 5000
+                        },
+                        {
+                            "name": "Lalapan",
+                            "description": "Sayuran segar",
+                            "price": 5000
+                        }
+                    ]
+                }
+            ]
         }
     },
     {
@@ -236,7 +238,7 @@
                         {
                             "name": "Sushi Platter",
                             "description": "Assortment of Nigiri and Maki",
-                            "price": "varies"
+                            "price": 35000
                         }
                     ]
                 },

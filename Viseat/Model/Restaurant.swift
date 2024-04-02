@@ -10,7 +10,7 @@ import SwiftUI
 import CoreLocation
 
 struct Restaurant: Hashable, Codable, Identifiable {
-  var id: String = UUID().uuidString
+  var id: Int
   var name: String
   var cuisineType: [String]
   var priceRange: Int
@@ -22,7 +22,6 @@ struct Restaurant: Hashable, Codable, Identifiable {
   var mainImage: String
   var ratings: Double
   var images: [String]
-  var openingHours: [String: String]
   var menu: Menu
 }
 
