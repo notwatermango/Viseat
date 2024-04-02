@@ -17,9 +17,15 @@ struct RestaurantList: View {
     }
     
     var body: some View {
-        List {
-            ForEach(filteredRestaurant) { restaurant in
-                RestaurantRow(restaurant: restaurant)
+        NavigationView {
+            List {
+                ForEach(filteredRestaurant) { restaurant in
+                    NavigationLink {
+                        RestaurantDetail(restaurant: restaurant)
+                    } label: {
+                        RestaurantRow(restaurant: restaurant)
+                    }
+                }
             }
         }
     }
