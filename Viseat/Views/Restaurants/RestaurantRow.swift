@@ -18,8 +18,6 @@ struct RestaurantRow: View {
 
 #Preview {
     let restaurants = ModelData().restaurants
-    return Group {
-        RestaurantRow(restaurant: restaurants[0])
-    }
+    return RestaurantRow(restaurant: restaurants[0])
 }
 
