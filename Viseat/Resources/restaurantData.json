@@ -1,5 +1,6 @@
 [
     {
+        "id": 1001,
         "name": "RM Padang ABC",
         "cuisineType": ["Traditional", "Padang"],
         "priceRange": 1,
@@ -9,7 +10,7 @@
             "province": "DKI Jakarta",
             "kecamatan": "Tanah Abang",
             "kelurahan": "Gondangdia"
-        }
+        },
         "geolocation": {
             "longitude": -116.166868,
             "latitude": 34.011286
@@ -33,9 +34,9 @@
             "bestSeller": {
                 "name": "Paket Rendang",
                 "description": "Nasi Rendang Sayur Sambel",
-                "price": 20000
-                "image": "rm_padang_abc_best",
-            }
+                "price": 20000,
+                "image": "rm_padang_abc_best"
+            },
             "categories": [
                 {
                     "name": "Paket Nasi",
@@ -48,12 +49,12 @@
                         {
                             "name": "Paket Ayam Goreng",
                             "description": "Nasi Ayam Goreng Sayur Sambel",
-                            "price": 19000,
+                            "price": 19000
                         },
                         {
                             "name": "Paket Hemat Telur",
                             "description": "Nasi Telur Sambel",
-                            "price": 13000,
+                            "price": 13000
                         }
                     ]
                 },
@@ -76,6 +77,7 @@
         }
     },
     {
+        "id": 1002,
         "name": "Warung Nasi Ibu Hanna",
         "cuisineType": ["Traditional", "Sundanese"],
         "priceRange": 1,
@@ -85,7 +87,7 @@
             "province": "Banten",
             "kecamatan": "Cibodas",
             "kelurahan": "Cibodasari"
-        }
+        },
         "geolocation": {
             "longitude": -116.166868,
             "latitude": 34.011286
@@ -109,10 +111,10 @@
             "bestSeller": {
                 "name": "Paket Nasi Liwet",
                 "description": "Nasi Liwet dengan Ayam Goreng, Sambal, Lalapan",
-                "price": 20000
-                "image": "warung_nasi_ibu_hanna_best",
-            }
-            "categories": {
+                "price": 20000,
+                "image": "warung_nasi_ibu_hanna_best"
+            },
+            "categories": [{
                 "name": "Paket Nasi",
                 "items": [
                     {
@@ -123,12 +125,12 @@
                     {
                         "name": "Paket Nasi Ayam Goreng",
                         "description": "Nasi Ayam Goreng Sayur Sambel",
-                        "price": 19000,
+                        "price": 19000
                     },
                     {
                         "name": "Paket Hemat Telur",
                         "description": "Nasi Telur Sambel",
-                        "price": 13000,
+                        "price": 13000
                     }
                 ]
             },
@@ -156,10 +158,11 @@
                         "price": 5000
                     }
                 ]
-            }
+            }]
         }
     },
     {
+        "id": 1003,
         "name": "Yakiya Japanese Restaurant",
         "cuisineType": ["Japanese"],
         "priceRange": 3,
@@ -169,7 +172,7 @@
             "province": "Banten",
             "kecamatan": "Kelapa Gading",
             "kelurahan": "Gading Serpong"
-        }
+        },
         "geolocation": {
             "longitude": -116.166868,
             "latitude": 34.011286
@@ -193,9 +196,9 @@
             "bestSeller": {
                 "name": "Salmon Teriyaki Don",
                 "description": "Grilled Salmon with Teriyaki Sauce on Rice",
-                "price": 85000
-                "image": "yakiya_salmon_teriyaki_don",
-            }
+                "price": 85000,
+                "image": "yakiya_salmon_teriyaki_don"
+            },
             "categories": [
                 {
                     "name": "Appetizers",
@@ -223,7 +226,7 @@
                         {
                             "name": "Salmon Nigiri",
                             "description": "Sliced Salmon on Sushi Rice",
-                            "price": 30000 (per piece)
+                            "price": 30000
                         },
                         {
                             "name": "Tuna Sashimi",
@@ -233,7 +236,7 @@
                         {
                             "name": "Sushi Platter",
                             "description": "Assortment of Nigiri and Maki",
-                            "price": varies
+                            "price": "varies"
                         }
                     ]
                 },
@@ -271,7 +274,7 @@
                             "price": 55000
                         }
                     ]
-                },
+                }
             ]
         }
     }
