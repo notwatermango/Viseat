@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Card: Identifiable {
+struct WishlistCard: Identifiable {
     let id = UUID()
     let name: String
     let description: String

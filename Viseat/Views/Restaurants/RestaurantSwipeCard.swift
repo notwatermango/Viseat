@@ -97,8 +97,9 @@ struct RestaurantSwipeCard: View {
                     }
                 }
         )
+        .zIndex(/*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
     }
-        
+    
     
     
     
