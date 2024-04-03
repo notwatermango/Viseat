@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E144AA42BBD407C00935503 /* Wishlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E144AA32BBD407C00935503 /* Wishlist.swift */; };
+		0E144AA62BBD408500935503 /* WishlistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E144AA52BBD408500935503 /* WishlistRow.swift */; };
 		C2369D432BBD2D79001183C7 /* Personalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2369D422BBD2D79001183C7 /* Personalization.swift */; };
 		FF5979172BBBC52E00ABD326 /* ViseatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5979162BBBC52E00ABD326 /* ViseatApp.swift */; };
 		FF5979192BBBC52E00ABD326 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5979182BBBC52E00ABD326 /* ContentView.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E144AA32BBD407C00935503 /* Wishlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wishlist.swift; sourceTree = "<group>"; };
+		0E144AA52BBD408500935503 /* WishlistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistRow.swift; sourceTree = "<group>"; };
 		C2369D422BBD2D79001183C7 /* Personalization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personalization.swift; sourceTree = "<group>"; };
 		FF5979132BBBC52E00ABD326 /* Viseat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viseat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5979162BBBC52E00ABD326 /* ViseatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViseatApp.swift; sourceTree = "<group>"; };
@@ -54,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E144AA22BBD407300935503 /* Wishlist */ = {
+			isa = PBXGroup;
+			children = (
+				0E144AA32BBD407C00935503 /* Wishlist.swift */,
+				0E144AA52BBD408500935503 /* WishlistRow.swift */,
+			);
+			path = Wishlist;
+			sourceTree = "<group>";
+		};
 		FF59790A2BBBC52E00ABD326 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +124,7 @@
 		FF59792E2BBBD78600ABD326 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0E144AA22BBD407300935503 /* Wishlist */,
 				FF5979182BBBC52E00ABD326 /* ContentView.swift */,
 				FF59793F2BBC124700ABD326 /* SwipeView.swift */,
 				FF5979362BBBF28200ABD326 /* Helper */,
@@ -219,8 +233,10 @@
 				FF59792B2BBBCE6800ABD326 /* Restaurant.swift in Sources */,
 				FF5979192BBBC52E00ABD326 /* ContentView.swift in Sources */,
 				C2369D432BBD2D79001183C7 /* Personalization.swift in Sources */,
+				0E144AA42BBD407C00935503 /* Wishlist.swift in Sources */,
 				FF5979382BBBF32900ABD326 /* RestaurantDetail.swift in Sources */,
 				FF5979172BBBC52E00ABD326 /* ViseatApp.swift in Sources */,
+				0E144AA62BBD408500935503 /* WishlistRow.swift in Sources */,
 				FF5979282BBBCE3700ABD326 /* ModelData.swift in Sources */,
 				FF59793E2BBC0B7C00ABD326 /* RestaurantSwipe.swift in Sources */,
 			);
