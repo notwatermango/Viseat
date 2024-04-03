@@ -11,7 +11,7 @@ import SwiftUI
 struct ViseatApp: App {
     var body: some Scene {
         WindowGroup {
-            SwipeView().environment(ModelData())
+            ContentView()
         }
     }
 }
