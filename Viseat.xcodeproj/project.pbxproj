@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E5F32902BBC0E7E00ACCEF3 /* WishlistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F328F2BBC0E7E00ACCEF3 /* WishlistRow.swift */; };
-		0E5F32922BBC0EAB00ACCEF3 /* WishList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F32912BBC0EAB00ACCEF3 /* WishList.swift */; };
 		FF5979172BBBC52E00ABD326 /* ViseatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5979162BBBC52E00ABD326 /* ViseatApp.swift */; };
 		FF5979192BBBC52E00ABD326 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5979182BBBC52E00ABD326 /* ContentView.swift */; };
 		FF59791B2BBBC52E00ABD326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF59791A2BBBC52E00ABD326 /* Assets.xcassets */; };
@@ -23,8 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E5F328F2BBC0E7E00ACCEF3 /* WishlistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistRow.swift; sourceTree = "<group>"; };
-		0E5F32912BBC0EAB00ACCEF3 /* WishList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishList.swift; sourceTree = "<group>"; };
 		FF5979132BBBC52E00ABD326 /* Viseat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viseat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5979162BBBC52E00ABD326 /* ViseatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViseatApp.swift; sourceTree = "<group>"; };
 		FF5979182BBBC52E00ABD326 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,15 +46,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E5F328E2BBC0E6700ACCEF3 /* Wishlist */ = {
-			isa = PBXGroup;
-			children = (
-				0E5F328F2BBC0E7E00ACCEF3 /* WishlistRow.swift */,
-				0E5F32912BBC0EAB00ACCEF3 /* WishList.swift */,
-			);
-			path = Wishlist;
-			sourceTree = "<group>";
-		};
 		FF59790A2BBBC52E00ABD326 = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +103,6 @@
 		FF59792E2BBBD78600ABD326 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0E5F328E2BBC0E6700ACCEF3 /* Wishlist */,
 				FF5979182BBBC52E00ABD326 /* ContentView.swift */,
 				FF5979362BBBF28200ABD326 /* Helper */,
 				FF59792F2BBBD79000ABD326 /* Restaurants */,
@@ -220,8 +206,6 @@
 				FF5979192BBBC52E00ABD326 /* ContentView.swift in Sources */,
 				FF5979382BBBF32900ABD326 /* RestaurantDetail.swift in Sources */,
 				FF5979172BBBC52E00ABD326 /* ViseatApp.swift in Sources */,
-				0E5F32902BBC0E7E00ACCEF3 /* WishlistRow.swift in Sources */,
-				0E5F32922BBC0EAB00ACCEF3 /* WishList.swift in Sources */,
 				FF5979282BBBCE3700ABD326 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
