@@ -15,7 +15,7 @@ struct WishlistButton: View {
         Button {
             isSet.toggle()
         } label: {
-            Label("Toggle Favorite", systemImage: isSet ? "heart.fill" : "heart")
+            Label("Toggle Favorite", systemImage: isSet ? "heart.fill" : "heart").foregroundColor(.danger)
                 .labelStyle(.iconOnly)
                 .foregroundStyle(isSet ? .red : .gray)
         }

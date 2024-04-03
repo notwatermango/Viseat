@@ -43,19 +43,19 @@
                     "name": "Paket Nasi",
                     "items": [
                         {
-                            "name": "Paket Ayam Bakar",
-                            "description": "Nasi Ayam Bakar Sayur Sambel",
-                            "price": 20000
+                            "name": "Ayam Pop",
+                            "description": "Ayam Pop",
+                            "price": 35000
                         },
                         {
-                            "name": "Paket Ayam Goreng",
-                            "description": "Nasi Ayam Goreng Sayur Sambel",
-                            "price": 19000
+                            "name": "Telur Dadar",
+                            "description": "Telur Dadar",
+                            "price": 5000
                         },
                         {
-                            "name": "Paket Hemat Telur",
-                            "description": "Nasi Telur Sambel",
-                            "price": 13000
+                            "name": "Daging Rendang",
+                            "description": "Daging Rendang",
+                            "price": 35000
                         }
                     ]
                 },
@@ -63,14 +63,14 @@
                     "name": "Ala Carte",
                     "items": [
                         {
-                            "name": "Rendang",
-                            "description": "Daging Sapi dimasak Rendang",
+                            "name": "Daging Rendang",
+                            "description": "Daging Rendang",
                             "price": 15000
                         },
                         {
-                            "name": "Ayam Goreng",
-                            "description": "Ayam Goreng dengan bumbu spesial",
-                            "price": 15000
+                            "name": "Perkedel",
+                            "description": "Perkedel",
+                            "price": 2500
                         }
                     ]
                 }
