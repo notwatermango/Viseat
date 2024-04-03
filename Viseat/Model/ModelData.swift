@@ -11,6 +11,13 @@ import Foundation
 @Observable
 class ModelData {
     var restaurants: [Restaurant] = load("restaurantData.json")
+    var cards: [Card] = []
+    
+    init() {
+        for restaurant in restaurants {
+            cards.append(Card(x: 0.0, y: 0.0, degree: 0.0, restaurant: restaurant))
+        }
+    }
 }
 
 func load<T: Decodable>(_ filename: String) -> T {
