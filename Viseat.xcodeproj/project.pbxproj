@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2369D432BBD2D79001183C7 /* Personalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2369D422BBD2D79001183C7 /* Personalization.swift */; };
 		FF5979172BBBC52E00ABD326 /* ViseatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5979162BBBC52E00ABD326 /* ViseatApp.swift */; };
 		FF5979192BBBC52E00ABD326 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5979182BBBC52E00ABD326 /* ContentView.swift */; };
 		FF59791B2BBBC52E00ABD326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF59791A2BBBC52E00ABD326 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2369D422BBD2D79001183C7 /* Personalization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Personalization.swift; sourceTree = "<group>"; };
 		FF5979132BBBC52E00ABD326 /* Viseat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viseat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5979162BBBC52E00ABD326 /* ViseatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViseatApp.swift; sourceTree = "<group>"; };
 		FF5979182BBBC52E00ABD326 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				FF59792C2BBBD05C00ABD326 /* RestaurantRow.swift */,
+				C2369D422BBD2D79001183C7 /* Personalization.swift */,
 				FF5979302BBBDB6500ABD326 /* RestaurantList.swift */,
 				FF5979372BBBF32900ABD326 /* RestaurantDetail.swift */,
 			);
@@ -204,6 +207,7 @@
 				FF5979352BBBF27C00ABD326 /* WishlistButton.swift in Sources */,
 				FF59792B2BBBCE6800ABD326 /* Restaurant.swift in Sources */,
 				FF5979192BBBC52E00ABD326 /* ContentView.swift in Sources */,
+				C2369D432BBD2D79001183C7 /* Personalization.swift in Sources */,
 				FF5979382BBBF32900ABD326 /* RestaurantDetail.swift in Sources */,
 				FF5979172BBBC52E00ABD326 /* ViseatApp.swift in Sources */,
 				FF5979282BBBCE3700ABD326 /* ModelData.swift in Sources */,
