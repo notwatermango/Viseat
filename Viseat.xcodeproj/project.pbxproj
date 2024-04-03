@@ -19,6 +19,9 @@
 		FF5979312BBBDB6500ABD326 /* RestaurantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5979302BBBDB6500ABD326 /* RestaurantList.swift */; };
 		FF5979352BBBF27C00ABD326 /* WishlistButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5979342BBBF27C00ABD326 /* WishlistButton.swift */; };
 		FF5979382BBBF32900ABD326 /* RestaurantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5979372BBBF32900ABD326 /* RestaurantDetail.swift */; };
+		FF59793C2BBC09D900ABD326 /* RestaurantSwipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF59793B2BBC09D900ABD326 /* RestaurantSwipeCard.swift */; };
+		FF59793E2BBC0B7C00ABD326 /* RestaurantSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF59793D2BBC0B7C00ABD326 /* RestaurantSwipe.swift */; };
+		FF5979402BBC124700ABD326 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF59793F2BBC124700ABD326 /* SwipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		FF5979302BBBDB6500ABD326 /* RestaurantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantList.swift; sourceTree = "<group>"; };
 		FF5979342BBBF27C00ABD326 /* WishlistButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistButton.swift; sourceTree = "<group>"; };
 		FF5979372BBBF32900ABD326 /* RestaurantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetail.swift; sourceTree = "<group>"; };
+		FF59793B2BBC09D900ABD326 /* RestaurantSwipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSwipeCard.swift; sourceTree = "<group>"; tabWidth = 4; };
+		FF59793D2BBC0B7C00ABD326 /* RestaurantSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantSwipe.swift; sourceTree = "<group>"; };
+		FF59793F2BBC124700ABD326 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				FF5979182BBBC52E00ABD326 /* ContentView.swift */,
+				FF59793F2BBC124700ABD326 /* SwipeView.swift */,
 				FF5979362BBBF28200ABD326 /* Helper */,
 				FF59792F2BBBD79000ABD326 /* Restaurants */,
 			);
@@ -115,6 +122,8 @@
 		FF59792F2BBBD79000ABD326 /* Restaurants */ = {
 			isa = PBXGroup;
 			children = (
+				FF59793B2BBC09D900ABD326 /* RestaurantSwipeCard.swift */,
+				FF59793D2BBC0B7C00ABD326 /* RestaurantSwipe.swift */,
 				FF59792C2BBBD05C00ABD326 /* RestaurantRow.swift */,
 				C2369D422BBD2D79001183C7 /* Personalization.swift */,
 				FF5979302BBBDB6500ABD326 /* RestaurantList.swift */,
@@ -204,13 +213,16 @@
 			files = (
 				FF5979312BBBDB6500ABD326 /* RestaurantList.swift in Sources */,
 				FF59792D2BBBD05C00ABD326 /* RestaurantRow.swift in Sources */,
+				FF5979402BBC124700ABD326 /* SwipeView.swift in Sources */,
 				FF5979352BBBF27C00ABD326 /* WishlistButton.swift in Sources */,
+				FF59793C2BBC09D900ABD326 /* RestaurantSwipeCard.swift in Sources */,
 				FF59792B2BBBCE6800ABD326 /* Restaurant.swift in Sources */,
 				FF5979192BBBC52E00ABD326 /* ContentView.swift in Sources */,
 				C2369D432BBD2D79001183C7 /* Personalization.swift in Sources */,
 				FF5979382BBBF32900ABD326 /* RestaurantDetail.swift in Sources */,
 				FF5979172BBBC52E00ABD326 /* ViseatApp.swift in Sources */,
 				FF5979282BBBCE3700ABD326 /* ModelData.swift in Sources */,
+				FF59793E2BBC0B7C00ABD326 /* RestaurantSwipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Viseat/Preview Content\"";
+				DEVELOPMENT_TEAM = 326C9U59AH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -376,6 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Viseat/Preview Content\"";
+				DEVELOPMENT_TEAM = 326C9U59AH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
